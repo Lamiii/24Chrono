@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--fichier bootstrap et css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--fichier jquery-->
+    <script src="js/jquery.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <h4 class="text3" style="color: white"></h4>
+    <!--main-->
+
+    <!--sidebar-->
+
+    <div class="sidebar">
+        <div class="content">
+            <div>
+                <h4>Paramètres</h4>
+            </div>
+            <form class="text" style="display: block">
+                <label for="">Début</label><br>
+                <input type="datetime" class="text1" value="00:00:00"><br><br>
+                <label for="">Fin</label><br>
+                <input type="datetime" class="text2" value="23:59:59"><br><br>
+                <button type="button" onclick="start()">Lancer</button>
+            </form>
+        </div>
+    </div>
+
+    <!--main-content-->
+
+    <div class="main-content" style="color: white">
+        <h3 id="content"></h3>
+        <div class="images text-center">
+            <img src="chronoNumber/num0.jpg" class="image" alt="">
+            <img src="chronoNumber/num0.jpg" class="right image" alt="">
+        
+            <img src="chronoNumber/num0.jpg" class="image" alt="">
+            <img src="chronoNumber/num0.jpg" class="right image" alt="">
+        
+        
+            <img src="chronoNumber/num0.jpg" class="image" alt="">
+            <img src="chronoNumber/num0.jpg" class="right image" alt="">
+        </div>
+
+
+        <audio id="myAudio">
+            <source src="audio/chrono.mp3" type="audio/mpeg">
+        </audio>
+        
+    </div>
+
+    <!--fichier js-->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
